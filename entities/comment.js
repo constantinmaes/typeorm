@@ -15,6 +15,7 @@ module.exports = {
             target: 'Post',
             type: 'many-to-one',
             inverseSide: 'comments',
+            onDelete: 'CASCADE',
         },
     },
 };

@@ -23,8 +23,8 @@ module.exports = {
             target: 'Comment',
             type: 'one-to-many',
             inverseSide: 'post',
-            cascade: true,
             eager: true,
+            cascade: true,
         },
     },
 };
